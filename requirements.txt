@@ -1,0 +1,5 @@
+Flask
+pyreadstat
+python-dotenv
+pandas
+
