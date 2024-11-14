@@ -2,4 +2,4 @@ Flask
 pyreadstat
 python-dotenv
 pandas
-
+openpyxl
