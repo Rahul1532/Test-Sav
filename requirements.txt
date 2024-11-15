@@ -3,3 +3,4 @@ pyreadstat
 python-dotenv
 pandas
 openpyxl
+flask-cors
