@@ -4,11 +4,14 @@ import os
 import uuid
 from dotenv import load_dotenv
 import pandas as pd
+from flask_cors import CORS
 
 # Load environment variables from .env file
 load_dotenv()
 
 app = Flask(__name__)
+# Enable CORS for all routes
+CORS(app)
 
 # Fetch UUID_SECRET from environment variables
 UUID_SECRET = os.getenv('UUID_SECRET')
